@@ -7,18 +7,7 @@
 <head>
    <title></title>
    <link rel="stylesheet" href="{% static 'css/withoutvehicle.css' %}">
-   <style>
-      video {
-         border: 1px solid black;
-         display: block;
-         margin-bottom: 10px;
-      }
-
-      #captureFrontButton,
-      #deleteFrontButton {
-         display: none;
-      }
-   </style>
+  
 </head>
 <body>
   <a href="{% url 'home' %}" class="button">Back home</a>
@@ -68,7 +57,7 @@
                 <input type="text" id="other_purpose" name="other_purpose" placeholder="Please specify">
               </div>
            </div>
-           <div class="form-container">
+           
              <div class="form-group">
                 <div class="camera">
                    <div id="cameraContainer1">
@@ -82,7 +71,7 @@
                      <input type="hidden" id="idphoto" name="idphoto" required>
                    </div>
                 </div>
-             </div>
+             
            </div>
            
            <div class="form-group">
